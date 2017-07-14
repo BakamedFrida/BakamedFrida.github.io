@@ -1,0 +1,37 @@
+#överskrift{
+	color: white;
+	padding: 30px;
+	background-color: #ff9bcd;
+
+}
+
+.
+
+
+p{
+	text-align: center;
+}
+
+li a{
+	color: #fffcfe; 
+	font-size:30px;
+	background-color: #ff9bcd;
+}
+
+
+
+li > a:hover{
+	background-color: white !importent
+}
+
+#överskrift {
+	font-family: 'Kurale', serif;
+}
+body{
+	background-image: url("../bilder/.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+	position: relative;
+}
+

@@ -1,0 +1,78 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+  <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Koppla in Bootstrap css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+  <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+  <!-- Koppla in och JQuery Bootstrap javascript -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+  <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+  <script type="text/javascript" src="js/funktion.js"></script>
+
+  <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+  <link href="https://fonts.googleapis.com/css?family=Kurale|Zilla+Slab" rel="stylesheet">
+  <link rel="icon" type="image/png" href=" bilder/tårt ikon.png">
+  <title>Baka med Frida</title>
+  <!-- I den här diven finns allt som ligger ovanför menyn och innehållet. Förslagsvis hemsidans namn -->
+  <div class="container">
+  <h1 id="överskrift">Baka med Frida</h1>
+    <h3>Välkommen här kommer några av mina tips som kan underlätta när man bakar</h4>
+    </div>
+  </head>
+  <body>
+    <div class="container">
+      <div class="col-sm-2">
+        <ul class="nav nav-pills nav-stacked nav-default">
+          <li><a href="index.html">startsida</a></li>
+          <li class="activate"><a href="menyval1.html">Mina tips</a></li>
+          <li><a href="menyval2.html">Recept</a></li>
+          <li><a href="menyval3.html">Mina favoriter</a></li>
+        </ul>
+
+      </div>
+
+      <div class="col-sm-10">
+
+        <img  height="300px" width="400px" src="bilder/bakredskap.jpg">
+        <img  height="300px" width="400px" src="bilder/macarons2.jpg">     
+
+        <ol>
+
+          <li> <h4>  Rumstemparerande råvaror   </h4> </li>
+          <br>
+          <li> <h4>  En palett som du kan bre på en frosting med så att det blir slätt </h4> </l1>
+            <br>
+            <li> <h4>  När man ska smälta choklad är det bättre att smälta chokladen i en bunke över en kastrull med kokande vatten(vattenbad)</h4> </li>
+            <br>
+            <li> <h4>  väg smöret på en våg så det blir exakt.</h4> </li>
+            <br>
+            <li> <h4>  va noga när du mäter upp ingridienser </h4> </li>
+            <br>              
+            <li> <h4>  kakan ska vara inne i ugnen tills man kan sticka den uten att stickan blir kladdig </h4> </li>
+            <br>
+            <li> <h4>  börja med något enkelt </h4> </li>
+            <br>
+            <li> <h4> det blir inte ALLTID perfekt </h4> </li>
+            <br>
+            <li> <h4>när man häller upp mjöl så skaka på måttet lite så att mjölet inte packas det ät lätt att få för mycket</h4> </li>
+
+
+          </ol>
+
+        </div>
+      </div>
+    </body>
+    </html>
